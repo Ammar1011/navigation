@@ -1,0 +1,40 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+}
+
+ul li {
+    float: left;
+    margin-top: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    width: 120px;
+    display: inline-block;
+    background-color: gray;
+    padding: 10px;
+    border: solid 0.5px white;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover > ul {
+    display: block;
+}
+
+ul li ul li ul {
+    display: none;
+    margin-left: 140px;
+    margin-top: -40px;
+}
+ul li ul li {
+    float: none;
+    margin: 0;
+}
